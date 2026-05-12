@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Zorrilla — Dev</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800;900&family=Crimson+Pro:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- NAV -->
+    <nav>
+        <div class="logo">
+            <div class="logo-icon">SZ</div>
+            Santiago Zorrilla
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li>
+                <a href="https://www.instagram.com/novaflowstudio_/" target="_blank">
+                    Instagram
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav-badge">
+            <div class="pulse"></div>
+            Disponible
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+
+        <div class="hero-inner">
+
+            <div class="hero-left">
+
+                <div class="hero-overline">
+                    Desarrollador de Software · Mendoza, Argentina
+                </div>
+
+                <h1>
+                    SANTIAGO
+                    <span class="last">Zorrilla.</span>
+                </h1>
+
+                <p class="hero-sub">
+                    Construyo sistemas, sitios web y soluciones digitales modernas.
+                    Desde una landing page hasta plataformas de gestión completas
+                    para empresas, clubes y emprendimientos.
+                </p>
+
+                <div class="hero-btns">
+
+                    <a href="#proyectos" class="btn btn-primary">
+                        Ver proyectos
+
+                        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5">
+                            <path d="M5 12h14M12 5l7 7-7 7" />
+                        </svg>
+                    </a>
+
+                    <a href="#contacto" class="btn btn-ghost">
+                        Cotizar
+                    </a>
+
+                </div>
+
+            </div>
+
+            <div class="hero-card">
+
+                <p class="card-label">Overview</p>
+
+                <div class="stat-grid">
+
+                    <div class="stat">
+                        <div class="stat-num">5+</div>
+                        <div class="stat-label">Proyectos entregados</div>
+                    </div>
+
+                    <div class="stat">
+                        <div class="stat-num">100%</div>
+                        <div class="stat-label">Freelance independiente</div>
+                    </div>
+
+                </div>
+
+                <div class="services-mini">
+
+                    <div class="service-pill">
+                        <div class="service-pill-dot"></div>
+                        Desarrollo web
+                    </div>
+
+                    <div class="service-pill">
+                        <div class="service-pill-dot"></div>
+                        Sistemas a medida
+                    </div>
+
+                    <div class="service-pill">
+                        <div class="service-pill-dot"></div>
+                        Ecommerce
+                    </div>
+
+                    <div class="service-pill">
+                        <div class="service-pill-dot"></div>
+                        Firebase & Backend
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- PROYECTOS -->
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+
+        <div class="sec-header">
+            <p class="sec-tag">01 — Trabajos</p>
+
+            <h2 class="sec-title">
+                Proyectos <span>recientes</span>
+            </h2>
+        </div>
+
+        <!-- FILTROS -->
+        <div class="filters">
+            <button class="f-btn active" data-filter="todos">Todos</button>
+            <button class="f-btn" data-filter="empresa">Empresas</button>
+            <button class="f-btn" data-filter="sistema">Sistemas</button>
+            <button class="f-btn" data-filter="web">Sitios web</button>
+        </div>
+
+        <!-- GRID -->
+        <div class="projects-grid" id="projects-grid">
+
+            <!-- REGATAS -->
+            <div class="proj-card" data-cat="sistema web">
+
+                <div class="proj-top">
+                    <span class="proj-badge">Club / Sistema</span>
+                    <span class="proj-year">2025</span>
+                </div>
+
+                <h3 class="proj-title">
+                    Regatas Futsal — Gestión Deportiva
+                </h3>
+
+                <p class="proj-desc">
+                    Plataforma desarrollada para la gestión integral del futsal del Club Regatas.
+                    Control de jugadores, cuotas, asistencia y administración deportiva.
+                </p>
+
+                <div class="proj-stack">
+                    <span class="stack-tag">JavaScript</span>
+                    <span class="stack-tag">Firebase</span>
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                </div>
+
+                <div class="proj-footer">
+
+                    <a href="https://github.com/Pecas622/regatasfutsal.git" target="_blank" rel="noopener noreferrer"
+                        class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14
+            6v-3.87a3.37 3.37 0 0 0-.94-2.61
+            c3.14-.35 6.44-1.54 6.44-7A5.44
+            5.44 0 0 0 20 4.77 5.07 5.07
+            0 0 0 19.91 1S18.73.65 16
+            2.48a13.38 13.38 0 0 0-7
+            0C6.27.65 5.09 1 5.09
+            1A5.07 5.07 0 0 0 5
+            4.77a5.44 5.44 0 0 0-1.5
+            3.78c0 5.42 3.3 6.61
+            6.44 7A3.37 3.37 0 0 0
+            9 18.13V22" />
+
+                        </svg>
+
+                        GitHub
+                    </a>
+
+                    <a href="https://regatasfutsal.vercel.app/" target="_blank" rel="noopener noreferrer"
+                        class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M18 13v6a2 2 0 0 1-2
+            2H5a2 2 0 0 1-2-2V8a2 2
+            0 0 1 2-2h6" />
+
+                            <polyline points="15 3 21 3 21 9" />
+
+                            <line x1="10" y1="14" x2="21" y2="3" />
+
+                        </svg>
+
+                        Ver sitio
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- GRUPO Z -->
+            <div class="proj-card" data-cat="empresa sistema">
+
+                <div class="proj-top">
+                    <span class="proj-badge">Sistema</span>
+                    <span class="proj-year">2024</span>
+                </div>
+
+                <h3 class="proj-title">
+                    Grupo Z — Desinfección
+                </h3>
+
+                <p class="proj-desc">
+                    Sistema de gestión para empresa de desinfección.
+                    Administración de clientes, trabajos y servicios.
+                </p>
+
+                <div class="proj-stack">
+                    <span class="stack-tag">JavaScript</span>
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                </div>
+
+                <div class="proj-footer">
+
+                    <a href="https://github.com/TUUSUARIO/grupoz" target="_blank" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14
+                            6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                            c3.14-.35 6.44-1.54 6.44-7A5.44
+                            5.44 0 0 0 20 4.77 5.07 5.07
+                            0 0 0 19.91 1S18.73.65 16
+                            2.48a13.38 13.38 0 0 0-7
+                            0C6.27.65 5.09 1 5.09
+                            1A5.07 5.07 0 0 0 5
+                            4.77a5.44 5.44 0 0 0-1.5
+                            3.78c0 5.42 3.3 6.61
+                            6.44 7A3.37 3.37 0 0 0
+                            9 18.13V22" />
+
+                        </svg>
+
+                        GitHub
+                    </a>
+
+                    <a href="https://grupoz.lovable.app/" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M18 13v6a2 2 0 0 1-2
+                        2H5a2 2 0 0 1-2-2V8a2 2
+                        0 0 1 2-2h6" />
+
+                            <polyline points="15 3 21 3 21 9" />
+
+                            <line x1="10" y1="14" x2="21" y2="3" />
+
+                        </svg>
+
+                        Demo
+                    </a>
+
+                </div>
+
+            </div>
+
+            <!-- PRESTAMOS -->
+            <div class="proj-card" data-cat="sistema">
+
+                <div class="proj-top">
+                    <span class="proj-badge">Sistema</span>
+                    <span class="proj-year">2024</span>
+                </div>
+
+                <h3 class="proj-title">
+                    Sistema de Cobros para Prestamistas
+                </h3>
+
+                <p class="proj-desc">
+                    Plataforma para administración de préstamos, cuotas,
+                    intereses y seguimiento de pagos.
+                </p>
+
+                <div class="proj-stack">
+                    <span class="stack-tag">JavaScript</span>
+                    <span class="stack-tag">HTML</span>
+                    <span class="stack-tag">CSS</span>
+                </div>
+
+                <div class="proj-footer">
+
+                    <a href="https://github.com/Pecas622/cirilo.git" target="_blank" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14
+                            6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                            c3.14-.35 6.44-1.54 6.44-7A5.44
+                            5.44 0 0 0 20 4.77 5.07 5.07
+                            0 0 0 19.91 1S18.73.65 16
+                            2.48a13.38 13.38 0 0 0-7
+                            0C6.27.65 5.09 1 5.09
+                            1A5.07 5.07 0 0 0 5
+                            4.77a5.44 5.44 0 0 0-1.5
+                            3.78c0 5.42 3.3 6.61
+                            6.44 7A3.37 3.37 0 0 0
+                            9 18.13V22" />
+
+                        </svg>
+
+                        GitHub
+                    </a>
+
+                    <a href="https://cirilo.vercel.app/" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M18 13v6a2 2 0 0 1-2
+                        2H5a2 2 0 0 1-2-2V8a2 2
+                        0 0 1 2-2h6" />
+
+                            <polyline points="15 3 21 3 21 9" />
+
+                            <line x1="10" y1="14" x2="21" y2="3" />
+
+                        </svg>
+
+                        Demo
+                    </a>
+
+                </div>
+
+            </div>
+            <!-- SISTEMA NEGOCIO -->
+            <div class="proj-card" data-cat="empresa sistema">
+
+                <div class="proj-top">
+                    <span class="proj-badge">Sistema Empresarial</span>
+                    <span class="proj-year">2025</span>
+                </div>
+
+                <h3 class="proj-title">
+                    Sistema de Negocio
+                </h3>
+
+                <p class="proj-desc">
+                    Plataforma de administración empresarial con módulos de clientes,
+                    facturación, inventario, reportes y gestión completa del negocio.
+                    Diseñada con interfaz moderna y funcionalidades escalables.
+                </p>
+
+                <div class="proj-stack">
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">Tailwind</span>
+                    <span class="stack-tag">JavaScript</span>
+                    <span class="stack-tag">Firebase</span>
+                </div>
+
+                <div class="proj-footer">
+
+                    <a href="https://github.com/Pecas622/sistema-negocio.git" target="_blank" rel="noopener noreferrer"
+                        class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14
+                6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                c3.14-.35 6.44-1.54 6.44-7A5.44
+                5.44 0 0 0 20 4.77 5.07 5.07
+                0 0 0 19.91 1S18.73.65 16
+                2.48a13.38 13.38 0 0 0-7
+                0C6.27.65 5.09 1 5.09
+                1A5.07 5.07 0 0 0 5
+                4.77a5.44 5.44 0 0 0-1.5
+                3.78c0 5.42 3.3 6.61
+                6.44 7A3.37 3.37 0 0 0
+                9 18.13V22" />
+
+                        </svg>
+
+                        GitHub
+                    </a>
+
+                    <a href="#" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M18 13v6a2 2 0 0 1-2
+                2H5a2 2 0 0 1-2-2V8a2 2
+                0 0 1 2-2h6" />
+
+                            <polyline points="15 3 21 3 21 9" />
+
+                            <line x1="10" y1="14" x2="21" y2="3" />
+
+                        </svg>
+
+                        Próximamente
+                    </a>
+
+                </div>
+
+            </div>
+            <!-- NOVAFLOW -->
+            <div class="proj-card" data-cat="web">
+
+                <div class="proj-top">
+                    <span class="proj-badge">Portfolio</span>
+                    <span class="proj-year">2024</span>
+                </div>
+
+                <h3 class="proj-title">
+                    NovaFlow Studio
+                </h3>
+
+                <p class="proj-desc">
+                    Sitio institucional del estudio digital.
+                    Diseño moderno, responsive y optimizado.
+                </p>
+
+                <div class="proj-stack">
+                    <span class="stack-tag">React</span>
+                    <span class="stack-tag">Tailwind</span>
+                    <span class="stack-tag">Vercel</span>
+                </div>
+
+                <div class="proj-footer">
+
+                    <a href="https://github.com/Pecas622/GrupoZ.git" target="_blank" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M9 19c-5 1.5-5-2.5-7-3m14
+                            6v-3.87a3.37 3.37 0 0 0-.94-2.61
+                            c3.14-.35 6.44-1.54 6.44-7A5.44
+                            5.44 0 0 0 20 4.77 5.07 5.07
+                            0 0 0 19.91 1S18.73.65 16
+                            2.48a13.38 13.38 0 0 0-7
+                            0C6.27.65 5.09 1 5.09
+                            1A5.07 5.07 0 0 0 5
+                            4.77a5.44 5.44 0 0 0-1.5
+                            3.78c0 5.42 3.3 6.61
+                            6.44 7A3.37 3.37 0 0 0
+                            9 18.13V22" />
+
+                        </svg>
+
+                        GitHub
+                    </a>
+
+                    <a href="https://novaflowstudio.lovable.app" target="_blank" class="proj-link">
+
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+
+                            <path d="M18 13v6a2 2 0 0 1-2
+                        2H5a2 2 0 0 1-2-2V8a2 2
+                        0 0 1 2-2h6" />
+
+                            <polyline points="15 3 21 3 21 9" />
+
+                            <line x1="10" y1="14" x2="21" y2="3" />
+
+                        </svg>
+
+                        Ver sitio
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+
+        <div class="sec-header">
+            <p class="sec-tag">02 — Tecnologías</p>
+
+            <h2 class="sec-title">
+                Skills <span>& stack</span>
+            </h2>
+        </div>
+
+        <div class="skills-layout">
+
+            <div class="skills-left">
+                <p>
+                    Desarrollo soluciones modernas usando herramientas actuales
+                    enfocadas en rendimiento, diseño y escalabilidad.
+                </p>
+            </div>
+
+            <div class="skills-right">
+
+                <div class="skill-row">
+                    <div class="skill-icon">🌐</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">HTML</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:95%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">95%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🎨</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">CSS</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:95%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">95%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">⚡</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">JavaScript</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:88%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">88%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🐍</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">Python</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:85%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">85%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🚀</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">Vercel</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:84%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">84%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🔥</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">Firebase</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:82%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">82%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">⚛️</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">React</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:80%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">80%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🟢</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">Node JS</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:80%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">80%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">🗄️</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">MongoDB</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:78%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">78%</span>
+                </div>
+
+                <div class="skill-row">
+                    <div class="skill-icon">💨</div>
+
+                    <div class="skill-info">
+
+                        <div class="skill-name">Tailwind CSS</div>
+
+                        <div class="skill-track">
+                            <div class="skill-fill" style="width:65%"></div>
+                        </div>
+
+                    </div>
+
+                    <span class="skill-pct">65%</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+ <!-- CONTACTO -->
+<section id="contacto">
+
+    <div class="sec-header">
+        <p class="sec-tag">03 — Contacto</p>
+
+        <h2 class="sec-title">
+            Construyamos <span>tu proyecto</span>
+        </h2>
+
+        <p class="contact-subtitle">
+            Desarrollo sitios web, sistemas y soluciones digitales modernas
+            para empresas, clubes y emprendimientos.
+        </p>
+    </div>
+
+    <div class="contact-layout">
+
+        <!-- LEFT -->
+        <div class="contact-info">
+
+            <div class="contact-card-main">
+
+                <div class="contact-status">
+                    <span class="status-dot"></span>
+                    Disponible para nuevos proyectos
+                </div>
+
+                <h3>
+                    ¿Tenés una idea?
+                </h3>
+
+                <p>
+                    Puedo ayudarte a crear desde una landing page moderna
+                    hasta sistemas completos de gestión para tu negocio.
+                </p>
+
+            </div>
+
+            <a href="mailto:santiagozorrilla5@gmail.com"
+                class="c-item contact-link-box">
+
+                <div>
+                    <p class="c-label">✉ Email</p>
+
+                    <p class="c-val">
+                        santiagozorrilla5@gmail.com
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="https://wa.me/542616298065"
+                target="_blank"
+                class="c-item contact-link-box">
+
+                <div>
+                    <p class="c-label">📱 WhatsApp</p>
+
+                    <p class="c-val">
+                        2616298065
+                    </p>
+                </div>
+
+            </a>
+
+            <a href="https://instagram.com/novaflowstudio_"
+                target="_blank"
+                class="c-item contact-link-box">
+
+                <div>
+                    <p class="c-label">📸 Instagram</p>
+
+                    <p class="c-val">
+                        @novaflowstudio_
+                    </p>
+                </div>
+
+            </a>
+
+        </div>
+
+        <!-- RIGHT -->
+        <div class="contact-form-box">
+
+            <p class="card-label">
+                Solicitar presupuesto
+            </p>
+
+            <form class="form-grid">
+
+                <div class="form-group">
+                    <label class="form-label">
+                        Nombre completo
+                    </label>
+
+                    <input
+                        type="text"
+                        class="form-input"
+                        placeholder="Ej: Santiago Zorrilla">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        class="form-input"
+                        placeholder="tu@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">
+                        Tipo de proyecto
+                    </label>
+
+                    <select class="form-select">
+
+                        <option>Sitio web</option>
+                        <option>Sistema web</option>
+                        <option>Ecommerce</option>
+                        <option>Landing page</option>
+                        <option>Otro</option>
+
+                    </select>
+                </div>
+
+                <div class="form-group full">
+
+                    <label class="form-label">
+                        Contame sobre tu proyecto
+                    </label>
+
+                    <textarea
+                        class="form-textarea"
+                        placeholder="Necesito una página para mi negocio, un sistema de gestión, ecommerce, etc..."></textarea>
+
+                </div>
+
+                <div class="form-group full">
+
+                    <button class="form-submit">
+
+                        Enviar consulta
+
+                    </button>
+
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-left">
+            <div class="footer-logo-icon">SZ</div>
+
+            <span class="footer-name">
+                SANTIAGO ZORRILLA
+            </span>
+        </div>
+
+        <p class="footer-copy">
+            © 2025 — Mendoza, Argentina
+        </p>
+
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+
+        // PARTICLES
+
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+
+        let W, H, pts = [];
+
+        function resize() {
+            W = canvas.width = window.innerWidth;
+            H = canvas.height = window.innerHeight;
+        }
+
+        resize();
+
+        window.addEventListener('resize', resize);
+
+        for (let i = 0; i < 60; i++) {
+
+            pts.push({
+                x: Math.random() * window.innerWidth,
+                y: Math.random() * window.innerHeight,
+                vx: (Math.random() - .5) * .35,
+                vy: (Math.random() - .5) * .35,
+                r: Math.random() * 1.5 + .5,
+                a: Math.random()
+            });
+
+        }
+
+        function draw() {
+
+            ctx.clearRect(0, 0, W, H);
+
+            pts.forEach(p => {
+
+                p.x += p.vx;
+                p.y += p.vy;
+
+                if (p.x < 0) p.x = W;
+                if (p.x > W) p.x = 0;
+
+                if (p.y < 0) p.y = H;
+                if (p.y > H) p.y = 0;
+
+                ctx.beginPath();
+
+                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+
+                ctx.fillStyle = `rgba(0,212,255,${p.a * .35})`;
+
+                ctx.fill();
+
+            });
+
+            requestAnimationFrame(draw);
+
+        }
+
+        draw();
+
+        // FILTERS
+
+        document.querySelectorAll('.f-btn').forEach(btn => {
+
+            btn.addEventListener('click', () => {
+
+                document.querySelectorAll('.f-btn')
+                    .forEach(b => b.classList.remove('active'));
+
+                btn.classList.add('active');
+
+                const f = btn.dataset.filter;
+
+                document.querySelectorAll('.proj-card').forEach(card => {
+
+                    card.style.display =
+                        (f === 'todos' || card.dataset.cat.includes(f))
+                            ? ''
+                            : 'none';
+
+                });
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
